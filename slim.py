@@ -6,7 +6,7 @@ def param_check():
 	try:
 		a = sys.argv[1]
 	except IndexError:
-		print("Usage python2 manual.py file.txt")
+		print("Usage python2 slim.py file.txt")
 		os.sys.exit()
 
 def file_check():
