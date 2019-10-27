@@ -28,6 +28,7 @@ def root(subdo, data, files ,target):
 		diq.root(target, sys.argv[1], x, data)
 
 def about():
+	os.system("clear")
 	print('  \033[1;31m  / _ \ ')
 	print('  \_\(_)/_/')
 	print('   _//"\\\_')
